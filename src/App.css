@@ -2,6 +2,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
+  transition: all 2s;
+  white-space: wrap;
 }
 
 body {
@@ -19,4 +21,22 @@ body {
   display: flex;
   padding-left: 75px;
   padding-right: 10px;
+}
+
+@media only screen and (max-width: 930px) {
+  #root {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 65px;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  #root {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 65px;
+    padding-top: 40px;
+  }
 }

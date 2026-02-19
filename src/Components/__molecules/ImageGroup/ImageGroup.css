@@ -40,3 +40,34 @@
   width: 100%;
   z-index: 1;
 }
+
+.mobile-shadow {
+  position: absolute;
+  bottom: -33px;
+  left: 0px;
+  display: none;
+}
+
+.mobile-big-image {
+  display: none;
+}
+
+@media only screen and (max-width: 930px) {
+  .upper-shadow,
+  .second-upper-shadow,
+  .shadow,
+  .big-image,
+  .box-image {
+    display: none;
+  }
+
+  .image-container {
+    max-width: 240px;
+    top: -110px;
+  }
+
+  .mobile-shadow,
+  .mobile-big-image {
+    display: block;
+  }
+}

@@ -6,11 +6,24 @@
 }
 
 .faq-container {
-  padding-top: 64px;
   width: 100%;
   max-width: 350px;
   gap: 45px;
   display: flex;
   flex-direction: column;
   padding-left: 30px;
+  padding-top: 64px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 930px) {
+  .heading {
+    text-align: center;
+  }
+  .faq-container {
+    padding-top: 0px;
+    padding-left: 0px;
+    max-width: 100%;
+    gap: 20px;
+  }
 }
