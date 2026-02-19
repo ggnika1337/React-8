@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+}
+
+#root {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-left: 75px;
+  padding-right: 10px;
+}
