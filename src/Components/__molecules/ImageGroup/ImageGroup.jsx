@@ -3,10 +3,10 @@ import "./ImageGroup.css";
 import MonitorImg from "../../../assets/images/womanScreen.png";
 import BoxImg from "../../../assets/images/box.png";
 import Shadow from "../../../assets/images/imageShadow.png";
-import UpperShadow from "../../../assets/images/UpperShadow.png";
+import UpperShadow from "../../../assets/images/upperShadow.png";
 import SecondUpperShadow from "../../../assets/images/secondUpperShadow.png";
-import MobileShadow from "../../../assets/images/MobileShadow.png";
-import MobileMonitorImg from "../../../assets/images/MobileWomanScreen.png";
+import MobileShadow from "../../../assets/images/mobileShadow.png";
+import MobileMonitorImg from "../../../assets/images/mobileWomanScreen.png";
 
 function ImageGroup() {
   return (
